@@ -3,6 +3,7 @@
 // For storing user's theme selection in cookies
 function storeTheme(themeName) {
     // Your code here
+    document.cookie = "theme=themName"
 }
 
 // For restoring theme from cookies, if selected by the user in the past
